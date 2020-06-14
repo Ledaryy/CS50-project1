@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% for note in notes %}
+<li>{{ note }}</li>
+{% endfor %}
+
+<form action="" method="post">
+    <input type="text" name="note" placeholder="Enter Your Name">
+    <button>Submit</button>
+<form>
